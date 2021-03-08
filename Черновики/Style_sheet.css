@@ -1,0 +1,97 @@
+.dark{
+    background: black;
+    background-size: 100%;
+}
+
+.history{
+    text-align: center;
+}
+
+.historyH2{
+    color: white;
+    font-size: 40px;
+}
+
+.historyP{
+    color: white;
+    font-size: 30px;
+}
+
+.historyBtnUp{
+    margin-top: 25px;
+    border: none;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.historyBtnUp:hover{
+    opacity: .9;
+    background: #ffd89b;
+    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);
+    background: linear-gradient(to right, #19547b, #ffd89b);
+}
+
+.WWWBtnDown {
+    border: none;
+    background: white;
+    color: blueviolet;
+    outline: none;
+}
+
+.WWWBtnUp {
+    border: none;
+    background: white;
+    color: blueviolet;
+    outline: none;
+}
+
+.WWWBtnIn1 {
+    border: none;
+    background: white;
+    color: blueviolet;
+    outline: none;
+}
+
+/* The sidebar menu */
+.JSNav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.JSNav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.JSNav a:hover {
+    color: #f1f1f1;
+}
+
+/* Style page content */
+.JSMain {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .JSNav {padding-top: 15px;}
+    .JSNav a {font-size: 18px;}
+}
+
+.hidden {
+    display: none;
+}

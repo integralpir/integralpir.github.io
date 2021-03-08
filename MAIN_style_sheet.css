@@ -1,0 +1,65 @@
+.dark {
+    background: black;
+    background-size: 100%;
+}
+
+.beautiful {
+    background: white;
+    background-size: 100%;
+}
+
+.history{
+    text-align: center;
+    color: white;
+}
+
+.historyH2{
+    font-size: 40px;
+}
+
+.historyP{
+    font-size: 30px;
+}
+
+.historyBtnUp{
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.historyBtnUp:hover{
+    opacity: .9;
+    background: #cb2d3e;
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);
+    background: linear-gradient(to right, #ef473a, #cb2d3e);
+}
+
+.Header {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.Nav a {
+    margin: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+    color: #818181;
+    cursor: pointer;
+}
+
+.WWWBtnIn1 {
+    border: none;
+    background: white;
+    color: blueviolet;
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+

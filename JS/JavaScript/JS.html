@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <style>
+        .dark {
+            background: #111111;
+            background-size: 100%;
+            color: white;
+        }
+    </style>
+</head>
+<body class="background" style="text-align: center">
+    <header style="height: 100%; width: 350px; position: fixed; z-index: 1; top: 0; left: 0; padding: 30px">
+        <img src="Brendan%20Eich.jpg" style="size: A5" alt="">
+        <h1 style="padding-left: 80px; text-align: center; font-family: 'Inter', sans-serif;">Brendan Eich</h1>
+    </header>
+    <div class="mainJS" style="margin-left: 500px; font-family: 'Inter', sans-serif;">
+        <h1 style="font-size: 40px">JavaScript</h1>
+        <h2 style="font-size: 30px">1995</h2>
+        <p style="font-size: 24px">
+            Language for designers.<br>
+            Main principles: <br>
+            Easy to learn <br>
+            Dynamic <br>
+            A bit wordy <br>
+            Powerful
+        </p>
+        <button type="button" class="goToPHP" onclick="toggleText()">Next Theme</button>
+    </div>
+<script>
+    function toggleText() {
+        document.querySelector(".background").classList.toggle("dark")
+    }
+</script>
+</body>
+</html>

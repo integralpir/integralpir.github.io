@@ -1,0 +1,35 @@
+body {
+    background: #FF5F6D;
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
+    background: linear-gradient(to right, #FFC371, #FF5F6D);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.dark {
+    display: none;
+}
+
+.goodBye {
+    margin-top: 5px;
+    border: none;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.goodBye:hover{
+    opacity: .9;
+}
